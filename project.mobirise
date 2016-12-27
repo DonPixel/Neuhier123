@@ -1,0 +1,149 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "3.3",
+    "versionPublish": "3.10.4",
+    "name": "Appearance Immobilien GmbH",
+    "theme": {
+      "name": "purity",
+      "title": "PurityM",
+      "styling": {}
+    },
+    "favicon": "",
+    "google-analytics": "Appearance Immobilien GmbH",
+    "cookiesAlert": "",
+    "uniqCompNum": 0
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "purity/components",
+          "_name": "menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#000"
+            }
+          },
+          "_anchor": "menu-1",
+          "_params": {
+            "hamburgerColor": "#000",
+            "sticky": true,
+            "transparent": false,
+            "color": "#fff",
+            "collapsed": true,
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/kopf-128x128-21.png",
+              "height": 128,
+              "alt": "Appearance",
+              "link": "http://appearance-immobilien.de",
+              "title": "Appearance Immobilien",
+              "linkInNewWindow": true
+            }
+          },
+          "brand": "<a class=\"navbar-brand\" data-app-btn=\"true\" href=\"http://appearance-immobilien.de\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Appearance Immobilien GmbH</a>",
+          "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".nav-item .btn\" href=\"https://mobirise.com\">Download</a></li>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"index.html#contacts2-0\"></a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link\" data-app-selector=\".nav-link\" href=\"#bottom\">Impressum</a></li>"
+        },
+        {
+          "alias": "purity/components",
+          "_name": "header1",
+          "_anchor": "header1-0",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/appear-strand-2000x1333-32.jpg",
+            "bgColor": "#fff8e0",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#ffffff",
+            "contentAlign": "center",
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "title": "Mobirise",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">Download Now</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Learn More</a>"
+        },
+        {
+          "alias": "purity/components",
+          "_name": "contacts3",
+          "_styles": {
+            "P": {
+              "font-size": "15px"
+            },
+            "B": {
+              "font-size": "17px"
+            },
+            "I": {
+              "font-size": "15px"
+            }
+          },
+          "_anchor": "contacts3-0",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
+            "bgColor": "#37383e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "text1": "<b><i>Impressum</i>:<br></b><br><b>Appearance Immobilien GmbH<br></b>Nürnberger Str. 41<br>36179 Bebra<br><br>Tel.: 06622-9157800<br>Fax: 06622-9157801<br><br>E-Mail: info@appearance-immobilien.de<br><a href=\"http://appearance-immobilien.de\">www.appearance-immobilien.de</a><br><br><br><i>Vertretungsberechtigt Geschäftsführung:<br></i>Julia Becker und Marcus Becker<br><br><i>Umsatzsteuer-Identifikationsnummer gemäß § 27 a&nbsp;Umsatzsteuergesetz: </i>DE295419523   <br><br><i>Redaktionell Verantwortlich <br>gemäß § 55 II RStV: &nbsp;<br></i>Julia Becker und Marcus Becker <br>(Anschrift wie oben)<br><br><i>Bilderrechte</i><br>Für die gelegentliche Verwendung gilt unser Dank den Fotografen von www.mobirise.com<br><br><i>Urheberrecht</i><br>© Appearance Immobilien GmbH<br>Alle Rechte vorbehalten.<br><br><i><br></i><br><br>",
+          "text2": "&nbsp;",
+          "form": {
+            "title": "MESSAGE",
+            "action": "ballier@web.de",
+            "alerts": {
+              "success": "Vielen Dank für Ihre Nachricht."
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "E-Mail"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Telefon"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Nachricht"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Nachricht senden</a>"
+        }
+      ]
+    }
+  }
+}
